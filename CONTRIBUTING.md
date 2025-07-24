@@ -29,8 +29,8 @@ If you find a bug or have a feature request:
 
 1. Clone your fork:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/excel-mcp-server.git
-   cd excel-mcp-server
+   git clone https://github.com/amanarneja/XSpreadsheet.git
+   cd XSpreadsheet
    ```
 
 2. Create and activate a virtual environment:

@@ -18,7 +18,7 @@ setup(
     long_description_content_type="text/markdown",
     author="Aman Arneja",
     author_email="aman.arneja@hotmail.com",
-    url="https://github.com/amanarneja/excel-mcp-server",
+    url="https://github.com/amanarneja/XSpreadsheet",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     python_requires=">=3.8",

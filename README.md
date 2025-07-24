@@ -33,8 +33,8 @@ A comprehensive Model Context Protocol (MCP) server that provides Excel file man
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/amanarneja/excel-mcp-server.git
-   cd excel-mcp-server
+   git clone https://github.com/amanarneja/XSpreadsheet.git
+   cd XSpreadsheet
    ```
 
 2. **Create a virtual environment:**
@@ -160,8 +160,8 @@ To use with Claude Desktop, add this to your `claude_desktop_config.json`:
   "mcpServers": {
     "excel-mcp-server": {
       "command": "python",
-      "args": ["path/to/excel-mcp-server/src/excel_mcp_server/server.py"],
-      "cwd": "path/to/excel-mcp-server"
+      "args": ["path/to/XSpreadsheet/src/excel_mcp_server/server.py"],
+      "cwd": "path/to/XSpreadsheet"
     }
   }
 }
@@ -173,8 +173,8 @@ To use with Claude Desktop, add this to your `claude_desktop_config.json`:
   "mcpServers": {
     "excel-mcp-server": {
       "command": "python",
-      "args": ["C:\\projects\\excel-mcp-server\\src\\excel_mcp_server\\server.py"],
-      "cwd": "C:\\projects\\excel-mcp-server"
+      "args": ["C:\\projects\\XSpreadsheet\\src\\excel_mcp_server\\server.py"],
+      "cwd": "C:\\projects\\XSpreadsheet"
     }
   }
 }
@@ -187,7 +187,7 @@ To use with Claude Desktop, add this to your `claude_desktop_config.json`:
     "excel-mcp-server": {
       "command": "python",
       "args": ["-m", "src.excel_mcp_server.server"],
-      "cwd": "path/to/excel-mcp-server"
+      "cwd": "path/to/XSpreadsheet"
     }
   }
 }
@@ -298,7 +298,7 @@ We welcome contributions! Here's how to get started:
 1. **Fork the repository** on GitHub
 2. **Clone your fork** locally:
    ```bash
-   git clone https://github.com/amanarneja/excel-mcp-server.git
+   git clone https://github.com/amanarneja/XSpreadsheet.git
    ```
 3. **Create a feature branch**:
    ```bash
@@ -333,7 +333,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🆘 Support & Resources
 
-- **Issues**: [GitHub Issues](https://github.com/amanarneja/excel-mcp-server/issues)
+- **Issues**: [GitHub Issues](https://github.com/amanarneja/XSpreadsheet/issues)
 - **MCP Documentation**: [Model Context Protocol](https://modelcontextprotocol.io/)
 - **Claude Desktop**: [Anthropic Claude](https://claude.ai/)
 - **Excel Library**: Built with [openpyxl](https://openpyxl.readthedocs.io/)
@@ -348,5 +348,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **🚀 Ready to supercharge your Excel workflows with AI? Get started today!** 
 
-[![GitHub stars](https://img.shields.io/github/stars/amanarneja/excel-mcp-server?style=social)](https://github.com/amanarneja/excel-mcp-server)
-[![GitHub forks](https://img.shields.io/github/forks/amanarneja/excel-mcp-server?style=social)](https://github.com/amanarneja/excel-mcp-server)
+[![GitHub stars](https://img.shields.io/github/stars/amanarneja/XSpreadsheet?style=social)](https://github.com/amanarneja/XSpreadsheet)
+[![GitHub forks](https://img.shields.io/github/forks/amanarneja/XSpreadsheet?style=social)](https://github.com/amanarneja/XSpreadsheet)
