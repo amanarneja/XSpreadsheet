@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "excel-mcp-server": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["src/excel_mcp_server/server.py"]
+    }
+  }
+}
